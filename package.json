@@ -2,7 +2,7 @@
   "name": "latihan-express-graphql",
   "version": "1.0.0",
   "description": "latihan buat express dan graphql",
-  "main": "index.js",
+  "main": "./src/app.js",
   "scripts": {
     "start": "nodemon src/app.js",
     "test": "mocha --timeout 10000"
