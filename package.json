@@ -1,0 +1,40 @@
+{
+  "name": "latihan-express-graphql",
+  "version": "1.0.0",
+  "description": "latihan buat express dan graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacharuddinadieb/latihan-express-graphql.git"
+  },
+  "keywords": [
+    "graphql",
+    "express"
+  ],
+  "author": "Bacharuddin Adieb Pratama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bacharuddinadieb/latihan-express-graphql/issues"
+  },
+  "homepage": "https://github.com/bacharuddinadieb/latihan-express-graphql#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mocha": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}
