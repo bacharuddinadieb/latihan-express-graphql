@@ -1,5 +1,5 @@
 const express = require('express');
-const { PORT } = require('./config/env_variable');
+const { PORT, VARIABLE_SECRET } = require('./config/env_variable');
 require('dotenv').config();
 
 const app = express();
@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
   const data = [
     {
       pesan: 'halo halo',
+      sec: VARIABLE_SECRET,
       status: 200,
     },
   ];
