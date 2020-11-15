@@ -8,7 +8,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   const data = [
     {
-      pesan: 'halo halo test',
+      pesan: 'halo sudah berhasil publish!',
       sec: VARIABLE_SECRET,
       status: 200,
     },
