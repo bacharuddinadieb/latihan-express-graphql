@@ -8,7 +8,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   const data = [
     {
-      pesan: 'halo halo',
+      pesan: 'halo halo test',
       sec: VARIABLE_SECRET,
       status: 200,
     },
